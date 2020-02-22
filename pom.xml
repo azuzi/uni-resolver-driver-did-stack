@@ -5,7 +5,13 @@
 	<artifactId>uni-resolver-driver-did-stack</artifactId>
 	<packaging>${packaging.type}</packaging>
 	<name>uni-resolver-driver-did-stack</name>
-
+	<distributionManagement>
+	   	<repository>
+	    	<id>github</id>
+			<name>GitHub azuzi uni-resolver-driver-did-stack</name>
+			<url>https://maven.pkg.github.com/azuzi/uni-resolver-driver-did-stack</url>
+   		</repository>
+   </distributionManagement>
 	<parent>
 		<groupId>decentralized-identity</groupId>
 		<artifactId>uni-resolver</artifactId>
